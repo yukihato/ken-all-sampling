@@ -200,6 +200,33 @@ $ node index.js type4
   ]
 }
 ```
+### type5: 「その他」系（その他|除く|以外|不明|一円|全域）
+```
+$ node index.js type5
+{
+  type5: [
+    {
+      x0401: '13103',
+      oldPostcode: '105  ',
+      postcode: '1056490',
+      prefKana: 'ﾄｳｷｮｳﾄ',
+      cityKana: 'ﾐﾅﾄｸ',
+      townKana: 'ﾄﾗﾉﾓﾝﾄﾗﾉﾓﾝﾋﾙｽﾞﾋﾞｼﾞﾈｽﾀﾜｰ(ﾁｶｲ･ｶｲｿｳﾌﾒｲ)',
+      pref: '東京都',
+      city: '港区',
+      town: '虎ノ門虎ノ門ヒルズビジネスタワー（地階・階層不明）',
+      flag1: '0',
+      flag2: '0',
+      flag3: '0',
+      flag4: '0',
+      flag5: '0',
+      flag6: '0',
+      multiple: 1
+    }
+  ]
+}
+```
+
 
 ※tsvフォーマットでも出力できます。
 ```
