@@ -119,7 +119,7 @@ const main = async () => {
         }
         // その他系
         if (type === 'all' || type === 'type5') {
-            const type5 = all.filter((values) => /(その他|除く|以外|不明|一円|全域)/.test(values.town))
+            const type5 = all.filter((values) => /(その他|次の|除く|以外|不明|一円|全域)/.test(values.town))
             if (type5.length > 0){
                 const type5Sample = [type5[Math.floor(Math.random() * type5.length)]]
                 result.type5 = all.filter((values)=> (type5Sample[0].postcode === values.postcode && type5Sample[0].pref === values.pref && type5Sample[0].city === values.city))
